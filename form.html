@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact details
+    </title>
+        
+
+    <style>
+body {font-family: sans-serif,Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #414e42;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #192119;
+}
+
+.container {
+  border-radius: 5px;
+   background:#00b894;
+  padding: 20px;
+}
+</style>
+    </head>
+    <body>
+        <h2 style="color: coral"> CONTACT DETAILS  </h2>
+    <div class="container">
+  <form action="action_page.php"> 
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name" >
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      
+      <br>
+      
+<label class="container">female
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">male
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+
+      <br>
+      <br>
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+        <option value="">-</option>
+      <option value="punjab">PUNJAB</option>
+      <option value="haryana">HARYANA</option>
+      <option value="kerela">KERELA</option>
+        <option value="Jk">JAMMU AND KASHMIR</option>
+        <option value="delhi">DELHI</option>
+        
+    </select>
+      
+
+    <label for="subject">Places to want to visit</label>
+    <textarea id="subject" name="places to want to visit " placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+    </body>
+    
+    
+</html>
